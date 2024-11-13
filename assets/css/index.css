@@ -1,16 +1,28 @@
 body {
-  height: 600px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(158, 219, 139);
-  color: #ffffff;
+  color: crimson;
+  background-color: rgb(246, 238, 229);
   font-family: Montserrat, sans-serif;
 }
 
 img {
-  height: 150px;
+  height: 130px;
+  padding-top: 20px;
+}
+
+.father {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  width: 300px;
+  border: 3px solid crimson;
+  box-shadow: 0px 0px 60px 10px gray;
 }
 
 h2 {
@@ -24,10 +36,11 @@ button {
   font-size: 30px;
   border: none;
   border-radius: 10px;
-  background-color: rgb(133, 133, 133);
+  color: crimson;
+  background-color: black;
 }
 
 button:hover {
-  background-color: rgb(215, 108, 69);
-  color: #ffffff;
+  background-color: crimson;
+  color: black;
 }
